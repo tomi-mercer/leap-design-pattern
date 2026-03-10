@@ -1,0 +1,39 @@
+<leap_container version="3.1" project="generic_enterprise_architecture">
+
+<context_channel>
+  <core_identity>
+    <company_name>acme_corp_llc</company_name>
+    <core_philosophy>efficiency_through_spatial_constraint</core_philosophy>
+  </core_identity>
+
+  <drive_architecture>
+    <level_00 name="00_system_settings">
+      <purpose>The master vocabulary, brand assets, and global system rules.</purpose>
+    </level_00>
+    <level_01 name="01_operations_space">
+      <purpose>Deep work zone for supply chain and fulfillment. No marketing data permitted here.</purpose>
+    </level_01>
+    <level_02 name="02_marketing_space">
+      <purpose>Creative asset generation and ad copy. No operations data permitted here.</purpose>
+    </level_02>
+  </drive_architecture>
+</context_channel>
+
+<instruction_channel>
+  <naming_conventions>
+    <global_mandate>ALL files, folders, and system variables MUST be written in lowercase snake_case. No spaces. No capital letters.</global_mandate>
+  </naming_conventions>
+  <the_abc_processing_desk>
+    <folder_a>0a_inbox_raw_data -> READ-ONLY. Humans drop high-entropy data here.</folder_a>
+    <folder_b>0b_users_guide_and_logic -> READ-ONLY. Explicit .leap instructions for the specific agent.</folder_b>
+    <folder_c>0c_outbox_finished_work -> WRITE-ONLY. Formatted, hallucination-free AI output.</folder_c>
+  </the_abc_processing_desk>
+</instruction_channel>
+
+<system_guardrails>
+  <data_isolation id="the_containment_rule">
+    <rule>Never blur the Root Paths. The system must always honor the absolute separation of departments to prevent context bleed.</rule>
+  </data_isolation>
+</system_guardrails>
+
+</leap_container>
