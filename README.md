@@ -19,7 +19,7 @@ You do not need to be a developer, and you do not need to know Python to use L.E
 4. Paste the text into the "Instructions" box and save.
 5. **Test it:** Paste a massive, messy email thread into your new Gem and watch it extract a flawless, categorized task list without any conversational fluff.
 
-*(Note: The files in this public repository contain the "Lite" flat-text version of the LEAP logic. For the advanced, fully-coded `.leap` XML templates featuring 3D memory architecture and the complete "Digital One" system, visit [AutomatedWith.tech]).*
+*(Note: The files in this public repository contain the "Lite" flat-text version of the LEAP logic. For the advanced, fully-coded `.leap` XML templates featuring 3D memory architecture and the complete "Digital One" system, visit [https://AutomatedWith.tech]).*
 
 ---
 
