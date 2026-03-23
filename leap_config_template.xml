@@ -3,17 +3,17 @@
 <context_channel>
   <core_identity>
     <company_name>acme_corp_llc</company_name>
-    <core_philosophy>efficiency_through_spatial_constraint</core_philosophy>
+    <core_philosophy>efficiency_through_clear_boundaries</core_philosophy>
   </core_identity>
 
   <drive_architecture>
     <level_00 name="00_system_settings">
       <purpose>The master vocabulary, brand assets, and global system rules.</purpose>
     </level_00>
-    <level_01 name="01_operations_space">
+    <level_01 name="01_operations_desk">
       <purpose>Deep work zone for supply chain and fulfillment. No marketing data permitted here.</purpose>
     </level_01>
-    <level_02 name="02_marketing_space">
+    <level_02 name="02_marketing_desk">
       <purpose>Creative asset generation and ad copy. No operations data permitted here.</purpose>
     </level_02>
   </drive_architecture>
@@ -31,8 +31,8 @@
 </instruction_channel>
 
 <system_guardrails>
-  <data_isolation id="the_containment_rule">
-    <rule>Never blur the Root Paths. The system must always honor the absolute separation of departments to prevent the AI from mixing up project details.</rule>
+  <data_isolation id="the_digital_boundary_rule">
+    <rule>Never blur the Workspaces. The system must always honor the absolute separation of departments to prevent the AI from mixing up project details or getting confused.</rule>
   </data_isolation>
 </system_guardrails>
 
