@@ -1,73 +1,78 @@
-# L.E.A.P. (Logical Experience Architecture Pattern)
+# L.E.A.P. (Logically Engineered AI Prompts)
 
-**A simple, zero-code framework that turns exhausting AI chatbots into reliable, predictable digital workers by giving them clear boundaries.**
+**Stop chatting with AI... Start operating the machine.**
 
----
+Most of us experience the exact same exhaustion every single day...
 
-## 🛑 The Core Problem: AI Exhaustion
+We dump our messy thoughts, background information, and raw data into one massive paragraph in an AI chat box. 
 
-Right now, using AI often feels like more work than it saves. 
+We assume the AI will sort it out. 
 
-Whether you are an everyday user trying to organize your week or a developer trying to manage code, dumping your messy, unstructured thoughts into a standard chatbot usually leads to frustration. The AI tries to be your conversational buddy, gets confused by the noise, loses focus, and hallucinates answers. 
+Instead, we spend our time correcting it, trying to keep it from hallucinating, and writing endless follow-up prompts just to herd it back on track. 
 
-Instead of doing the work for you, you end up spending all your time trying to figure out the "perfect prompt" just to manage the AI. It feels like throwing your files into a massive, disorganized digital junk drawer. 
+Recently, the source code for a major AI agent leaked. 
 
-**The Solution:** L.E.A.P. makes AI a *normal, predictable technology*. Instead of treating the AI like an unpredictable chat companion, LEAP places the AI at a strictly organized "Digital Desk." It forces the AI to stop talking and start silently processing your data.
+It contained roughly 500,000 lines of complex, defensive programming just to keep the AI from going off the rails. 
 
----
+You don't need 500,000 lines of code to fix this. You just need to change the physical shape of your prompt.
 
-## 🚀 START HERE: The "No-Code" Tinkerer Kit (For Everyday Users)
+### The Solution: The Bento Box
 
-You do not need to be a programmer to use L.E.A.P. If you use Google Gemini Gems, ChatGPT Custom GPTs, or NotebookLM, you can snap this framework together right now in less than two minutes.
+Instead of a messy, conversational paragraph, L.E.A.P. relies on isolating your instructions into strict compartments. 
 
-### Quick Start Guide:
-1. Open the `Gem_and_NotebookLM_Kits` folder in this repository.
-2. Open the `system_instructions.txt` file and copy all the text.
-3. Go to Google Gemini and create a new "Gem" (or a Custom GPT in OpenAI).
-4. Paste the text into the "Instructions" box and save.
-5. **Test it:** Paste a massive, messy email thread, a chaotic brain-dump, or meeting notes into your new Gem. Watch it instantly extract a flawless, categorized action list without any conversational fluff.
+We call this the **Bento Box**.
 
-*(Note: The files in this public repository contain the "Lite" flat-text version of the LEAP logic. For advanced, fully-coded `.leap` templates and the complete "Digital One" operating system, visit [AutomatedWith.tech](https://automatedwith.tech)).*
+When you stop writing paragraphs and start using isolated compartments, the physics of the machine change. The AI stops trying to guess your intent in a "chat" and simply fills the space you provided. 
 
----
+It stops being a conversational buddy and becomes a deterministic computer.
 
-## 🗺️ The Core Concept: The A/B/C Desk
+#### The Everyday Tool (Bento Box Lite)
+If you use ChatGPT, Claude, or Gemini, you can start doing this right now. Wrap your prompts in these simple brackets:
 
-L.E.A.P. abandons the idea of a single "Master Brain" AI that you have to constantly argue with. Instead, we build autonomous digital workers by using clear digital boundaries. 
+**[CONTEXT]**
+Who you are and what the background situation is.
+**[/CONTEXT]**
 
-Every LEAP agent operates on a simple, 3-folder logic, much like a traditional office desk:
+**[RULES]**
+Exactly how the AI must behave, format the output, and what it must ignore.
+**[/RULES]**
 
-* `0a_inbox_raw_data/` **(The Messy Inbox)**: This is where you drop your unstructured, chaotic data (rough audio transcripts, brain dumps, messy emails).
-* `0b_users_guide_and_logic/` **(The Rulebook)**: This contains the exact instructions for the job. The AI is strictly limited to the rules placed in this specific folder, ignoring all outside noise.
-* `0c_outbox_finished_work/` **(The Outbox)**: The destination for the pristine, perfectly formatted, highly predictable output.
+**[INPUT]**
+The raw data, messy notes, or transcript it needs to process.
+**[/INPUT]**
 
----
-
-## ⚙️ What is a `.leap` file? (The Instruction Wrapper)
-
-Standard chatbots get distracted by *how* you talk to them. LEAP uses `.leap` files (which are just simple text files formatted with basic tags) to set **behavioral boundaries**.
-
-By wrapping your rules in simple tags (like `<core_identity>` or `<rules>`), we create clear guardrails for the AI. It treats the tags like a strict form it must fill out, rather than an open-ended conversation it needs to participate in. This is what stops the AI from hallucinating or making things up.
+*(Want to see this happen automatically? Use our [Bento Box Prompt Builder Gem](https://bento.automatedwith.tech/) to instantly convert your messy thoughts into this structure).*
 
 ---
 
-## 🛠️ The "Why Does This Work?" FAQ (For the Tinkerers & Developers)
+### Advancing to .LEAP (Building the Steel Mold)
 
-**"Why not just write complex routing scripts or use a specialized database?"**
+The Bento Box is just the beginning... 
 
-If you are a developer, you are likely used to writing complex code pipelines to keep your AI focused. L.E.A.P. achieves the exact same isolation, but with zero code and zero overhead.
+Once you realize that AI responds perfectly to isolated context, you can scale this logic up to build autonomous digital workers, APIs, and headless software—without writing complex Python or Javascript.
 
-Instead of building complex algorithms to separate data, LEAP uses standard digital boundaries (like Google Drive folders or your computer's directories) to separate work *conceptually*. Folder A is one workspace. Folder B is a completely separate workspace. They do not overlap. You can deploy reliable, deterministic workflows without spinning up extra infrastructure. The folder structure *is* the routing.
+We do this using **`.leap` files**. 
 
----
+A `.leap` file is a strict XML container. 
 
-## 🧠 The 3-Tier Benefit System
+It acts as a "Steel Mold." You build the rules once, save the file, and then route your messy daily data through it. 
 
-**1. For the Everyday Operator (No-Code Automation)**
-Build highly reliable, automated "digital employees" using the tools you already have just by copying and pasting the right instructions. Reclaim your time and energy from the blank chat box.
+It guarantees a pristine, exact output every single time. 
 
-**2. For the Developer (Zero Overhead)**
-Deploy deterministic workflows in minutes. Stop spending your day babysitting agents and arguing with code. Set the folder boundaries, drop the data in the inbox, and let the system run.
+*(See the `leap_advanced_template.xml` file in this repo to see how a production-grade L.E.A.P. container is built).*
 
-**3. For the Human Nervous System (Profound Relief)**
-By isolating your AI agents into specific digital workspaces (e.g., a strictly separated "Business Desk" and "Personal Desk"), you guarantee that work chaos never bleeds into your personal life. It eliminates digital overwhelm and cures operator burnout.
+### Our Philosophy: AI First... Always Human.
+
+We believe in using AI as the primary engine for processing chaotic, unstructured work. 
+
+Machines are exceptionally good at doing the heavy lifting when given a proper "Steel Mold" (like .leap files). 
+
+But they do not possess judgment. 
+
+**AI First... Always human.** 
+
+The machine processes the raw data, but a human must always review the output, hold the accountability, and execute the final action. 
+
+We are building tools for AI Operators... not replacements for them.
+
+Join the community of tinkerers and AI Operators building out this architecture at [AutomatedWith.tech](https://automatedwith.tech).
