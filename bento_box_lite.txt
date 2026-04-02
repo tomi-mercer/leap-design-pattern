@@ -1,0 +1,13 @@
+**[CONTEXT]**
+(Paste your background situation or the role the AI needs to adopt here)
+**[/CONTEXT]**
+
+**[RULES]**
+- (Rule 1: Specify the exact format you want, e.g., bullet points, no fluff)
+- (Rule 2: Specify what it should ignore)
+- (Rule 3: Specify the tone)
+**[/RULES]**
+
+**[INPUT]**
+(Paste your raw data, meeting transcript, or messy thoughts here)
+**[/INPUT]**
