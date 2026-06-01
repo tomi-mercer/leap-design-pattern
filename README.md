@@ -2,77 +2,79 @@
 
 **Stop chatting with AI... Start operating the machine.**
 
-Most of us experience the exact same exhaustion every single day...
+Most of us experience the exact same exhaustion every single day: we dump our messy thoughts and raw data into a massive paragraph in an AI chat box and assume the AI will sort it out. Instead, we spend our time correcting hallucinations and writing endless follow-up prompts just to herd the machine back on track.
 
-We dump our messy thoughts, background information, and raw data into one massive paragraph in an AI chat box. 
-
-We assume the AI will sort it out. 
-
-Instead, we spend our time correcting it, trying to keep it from hallucinating, and writing endless follow-up prompts just to herd it back on track. 
-
-Recently, the source code for a major AI agent leaked. 
-
-It contained roughly 500,000 lines of complex, defensive programming just to keep the AI from going off the rails. 
-
-You don't need 500,000 lines of code to fix this. You just need to change the physical shape of your prompt.
+### The Philosophy: Simple Made Easy
+Following the Rich Hickey philosophy, we believe that complexity is a choice. We choose the "slippery, thread-the-needle" path of simplicity. L.E.A.P. doesn't fix AI by adding more code; it fixes the interaction by changing the physical shape of your intent.
 
 ### The Solution: The Bento Box
+Instead of a messy, conversational paragraph, L.E.A.P. relies on isolating your instructions into strict compartments. We call this the **Bento Box**. When you stop writing paragraphs and start using isolated compartments, the AI stops trying to guess your intent in a "chat" and simply fills the space you provided. It becomes a deterministic computer.
 
-Instead of a messy, conversational paragraph, L.E.A.P. relies on isolating your instructions into strict compartments. 
-
-We call this the **Bento Box**.
-
-When you stop writing paragraphs and start using isolated compartments, the physics of the machine change. The AI stops trying to guess your intent in a "chat" and simply fills the space you provided. 
-
-It stops being a conversational buddy and becomes a deterministic computer.
-
-#### The Everyday Tool (Bento Box Lite)
-If you use ChatGPT, Claude, or Gemini, you can start doing this right now. Wrap your prompts in these simple brackets:
+#### Bento Box Lite (Everyday Tool)
+Wrap your prompts in these simple brackets to see an immediate 10x improvement in clarity:
 
 **[CONTEXT]**
 Who you are and what the background situation is.
 **[/CONTEXT]**
 
 **[RULES]**
-Exactly how the AI must behave, format the output, and what it must ignore.
+Exactly how the AI must behave and what it must ignore.
 **[/RULES]**
 
 **[INPUT]**
-The raw data, messy notes, or transcript it needs to process.
+The raw data, messy notes, or transcript to process.
 **[/INPUT]**
-
-*(Want to see this happen automatically? Use our [Bento Box Prompt Builder Gem](https://bento.automatedwith.tech/) to instantly convert your messy thoughts into this structure).*
 
 ---
 
-### Advancing to .LEAP (Building the Steel Mold)
+### Advancing to .LEAP (The Steel Mold)
+Once you realize that AI responds perfectly to isolated context, you can scale this logic to build autonomous digital workers using **`.leap` files**. A `.leap` file is a strict XML container—a "Steel Mold"—that guarantees a pristine, exact output every single time.
 
-The Bento Box is just the beginning... 
+### The Domino Standard (Agentic Logic)
+For complex, multi-step workflows, we use the **Domino Standard**. This structure allows the AI to understand the sequence of operations, the fuel (data) required, and the internal machinery (logic) to execute.
 
-Once you realize that AI responds perfectly to isolated context, you can scale this logic up to build autonomous digital workers, APIs, and headless software—without writing complex Python or Javascript.
+*   **`<DOMINO>`**: The wrapper for the entire logic unit.
+*   **`<FUEL>`**: The input data, context, or triggers required for the machine to run.
+*   **`<THE_MACHINE>`**: The specific instructions, rules, and transformation logic.
+*   **`<THE_DESTINATION>`**: The exact format and location of the final output.
 
-We do this using **`.leap` files**. 
+### Obvious Utility (HILOU) Examples
+Explore the `examples/` directory to see L.E.A.P. in action for high-friction daily tasks:
+*   **[Meeting Action Extractor](./examples/meeting_action_extractor.leap.md)**: Convert messy transcripts into strict JSON task lists.
+*   **[Receipt Expense Parser](./examples/receipt_expense_parser.leap.md)**: Extract merchant, date, and total from raw OCR text.
+*   **[Emotional Dissolve Email](./examples/emotional_dissolve_email.leap.md)**: Refactor angry drafts into perfectly professional responses.
 
-A `.leap` file is a strict XML container. 
+#### Developer Integration (Copy-Paste Examples)
+You can embed L.E.A.P. logic directly into your existing codebase.
 
-It acts as a "Steel Mold." You build the rules once, save the file, and then route your messy daily data through it. 
+**Python Example:**
+```python
+leap_prompt = f"""
+<LEAP_FILE type="data_cleaner">
+<MAP>
+    <FUEL>{raw_input_data}</FUEL>
+    <THE_MACHINE>Execute regex cleaning and JSON formatting.</THE_MACHINE>
+    <THE_DESTINATION>Return a valid JSON object only.</THE_DESTINATION>
+</MAP>
+</LEAP_FILE>
+"""
+response = client.chat.completions.create(messages=[{"role": "user", "content": leap_prompt}])
+```
 
-It guarantees a pristine, exact output every single time. 
+---
 
-*(See the `leap_advanced_template.xml` file in this repo to see how a production-grade L.E.A.P. container is built).*
+### The Open-Source Handshake
+*   **Visibility**: Everything is open to read and fork.
+*   **Contribution**: Pull requests must pass the HILOU^3 logic test (Highest Immediate Logical Obviously Useful).
+*   **Communication**: Don't shout in the void of GitHub Issues. Meet the community of AI Operators at [AutomatedWith.tech](https://automatedwith.tech)—that's where the real machinery moves.
 
-### Our Philosophy: AI First... Always Human.
+### Dual-Bridge Navigation
+*   **Watch the Face**: See the "Casual Magic" in action on YouTube at [@ThisIsYourMindOnAI](https://youtube.com/@ThisIsYourMindOnAI).
+*   **See the Gears**: Join the community and build the future of AI-Native Operating Networks at [AutomatedWith.tech](https://automatedwith.tech).
 
-We believe in using AI as the primary engine for processing chaotic, unstructured work. 
+### Get the Engine (The NDK)
+This repository provides the manual framework. For the fully automated Nitwyt OS Runtime (including the HTML Private Portal, Ask Nitwyt automation, and the full domino library), get the **Nitwyt Developing Kit (NDK)**.
 
-Machines are exceptionally good at doing the heavy lifting when given a proper "Steel Mold" (like .leap files). 
+[**Purchase the NDK ($500)**](https://nitwyt.ai)
 
-But they do not possess judgment. 
-
-**AI First... Always human.** 
-
-The machine processes the raw data, but a human must always review the output, hold the accountability, and execute the final action. 
-
-We are building tools for AI Operators... not replacements for them.
-
-Join the community of tinkerers and AI Operators building out this architecture at [AutomatedWith.tech](https://automatedwith.tech).
+**AI First... Always Human.**
