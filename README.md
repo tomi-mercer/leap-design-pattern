@@ -40,6 +40,7 @@ For complex, multi-step workflows, we use the **Domino Standard**. This structur
 
 ### Obvious Utility (HILOU) Examples
 Explore the `examples/` directory to see L.E.A.P. in action for high-friction daily tasks:
+*   **[Chaos Sorter (Task Intake)](./examples/chaos_sorter_intake.leap.md)**: Dump your messy thoughts; get back real tasks, filed into life buckets with honest dates — the schema-enforced sorting pattern.
 *   **[Meeting Action Extractor](./examples/meeting_action_extractor.leap.md)**: Convert messy transcripts into strict JSON task lists.
 *   **[Receipt Expense Parser](./examples/receipt_expense_parser.leap.md)**: Extract merchant, date, and total from raw OCR text.
 *   **[Emotional Dissolve Email](./examples/emotional_dissolve_email.leap.md)**: Refactor angry drafts into perfectly professional responses.
