@@ -66,6 +66,7 @@ response = client.chat.completions.create(messages=[{"role": "user", "content": 
 
 ### The Open-Source Handshake
 *   **Visibility**: Everything is open to read and fork.
+*   **Licensing**: MIT covers the copyright in this spec and its examples; see [PATENTS.md](./PATENTS.md) for the patent notice (belt-and-suspenders — MIT is silent on patents).
 *   **Contribution**: Pull requests must pass the HILOU^3 logic test (Highest Immediate Logical Obviously Useful).
 *   **Communication**: Don't shout in the void of GitHub Issues. Meet the community of AI Operators at [AutomatedWith.tech](https://automatedwith.tech)—that's where the real machinery moves.
 
@@ -74,7 +75,7 @@ response = client.chat.completions.create(messages=[{"role": "user", "content": 
 *   **See the Gears**: Join the community and build the future of AI-Native Operating Networks at [AutomatedWith.tech](https://automatedwith.tech).
 
 ### Get the Engine (The NDK)
-This repository provides the manual framework. For the fully automated Nitwyt OS Runtime (including the HTML Private Portal, Ask Nitwyt automation, and the full domino library), get the **Nitwyt Developing Kit (NDK)**.
+This repository provides the manual framework — the pattern you drive by hand. The **Nitwyt Developing Kit (NDK)** is the factory: a private repository you open in an IDE with an AI dev agent beside it. It carries the runnable **Nitwyt OS** studio — a local-first Chrome extension where you catch stray thoughts in **The Net** and organize them in **the Idea Garden**, with no server, no account, and your ideas never leaving your machine — plus the living blueprints and `.leap` spec brain that build it. When the artifact needs a fix, the factory fixes it; you watch each fix arrive through a blueprint.
 
 [**Purchase the NDK ($500)**](https://nitwyt.ai)
 
