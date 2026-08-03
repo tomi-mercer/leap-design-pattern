@@ -1,0 +1,14 @@
+# leap-design-pattern — open rail hygiene (staged 2026-08-02, ships only on Operator sign)
+# The PATENTS.md boundary note says "Verify .gitignore before every push" — this file makes that true.
+# Nothing below should ever exist in this repo; the globs are a tripwire, not a map.
+*.env
+.env*
+**/vaulted_keys*
+**/*secret*
+**/*credential*
+*.pem
+*.key
+**/_vault/
+**/financial_ledger*
+.claude/
+node_modules/
