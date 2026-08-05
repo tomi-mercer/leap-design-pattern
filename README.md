@@ -75,7 +75,7 @@ response = client.chat.completions.create(messages=[{"role": "user", "content": 
 *   **See the Gears**: Join the community and build the future of AI-Native Operating Networks at [AutomatedWith.tech](https://automatedwith.tech).
 
 ### Get the Engine (The NDK)
-This repository provides the manual framework — the pattern you drive by hand. The **Nitwyt Developing Kit (NDK)** is the factory: a private repository you open in an IDE with an AI dev agent beside it. It carries the runnable **Nitwyt OS** studio — a local-first Chrome extension where you catch stray thoughts in **The Net** and organize them in **the Idea Garden**, with no server, no account, and your ideas never leaving your machine — plus the living blueprints and `.leap` spec brain that build it. When the artifact needs a fix, the factory fixes it; you watch each fix arrive through a blueprint.
+This repository provides the manual framework — the pattern you drive by hand. The **Nitwyt Developing Kit (NDK)** is the factory: a private repository you open in an IDE with an AI dev agent beside it. It carries the runnable **Nitwyt OS** studio — a local-first Chrome extension where you catch stray thoughts in **The Net** and organize them in **the Idea Garden**, with no account and no Nitwyt server: your notes live in your own browser, and when you ask it to sort, it calls Google with **your** key, which is why you bring your own — plus the living blueprints and `.leap` spec brain that build it. When the artifact needs a fix, the factory fixes it; you watch each fix arrive through a blueprint.
 
 [**Purchase the NDK ($500)**](https://nitwyt.ai)
 
