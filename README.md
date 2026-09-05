@@ -44,6 +44,7 @@ Explore the `examples/` directory to see L.E.A.P. in action for high-friction da
 *   **[Meeting Action Extractor](./examples/meeting_action_extractor.leap.md)**: Convert messy transcripts into strict JSON task lists.
 *   **[Receipt Expense Parser](./examples/receipt_expense_parser.leap.md)**: Extract merchant, date, and total from raw OCR text.
 *   **[Emotional Dissolve Email](./examples/emotional_dissolve_email.leap.md)**: Refactor angry drafts into perfectly professional responses.
+*   **[The Saturday School handout — the paragraph that makes your AI answer about you](./examples/saturday_school_2026-09-05_handout.md)**: fill it in once, keep it in a file of your own, paste it in front of every question you ask an assistant. From the free class of 5 September 2026.
 
 #### Developer Integration (Copy-Paste Examples)
 You can embed L.E.A.P. logic directly into your existing codebase.
