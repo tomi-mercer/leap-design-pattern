@@ -1,4 +1,4 @@
-# LEAP (Logically Engineered AI Prompts)
+# LEAP (Logically Engineered Automatable Prompts)
 
 LEAP is a simple way to write instructions for an AI. You put each kind of instruction in its own labeled box: the background, the rules, and the material you want the AI to work on. LEAP is free to use under the MIT License. There's nothing to install, because it's plain text. You paste it into an AI chat, or send it from your own code. LEAP is meant to make an AI's work steadier, not perfect. So when something has to be exact, like a format, a number or a date, it's still worth checking with code. Chris Mercer made it.
 
