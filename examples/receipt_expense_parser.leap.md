@@ -1,3 +1,6 @@
+Copy everything in the box below into your AI, and replace the lines in capitals with your own material.
+
+```text
 <LEAP_FILE type="leaplet_example_parser">
 <DOMINO>
     <TEMPLATE>
@@ -32,3 +35,4 @@
     </TEMPLATE>
 </DOMINO>
 </LEAP_FILE>
+```

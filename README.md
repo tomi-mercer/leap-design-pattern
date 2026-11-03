@@ -36,7 +36,9 @@ The notes, transcript or text you want it to work on.
 
 The same three boxes, with a few notes on what goes in each one, are in [bento_box_lite.txt](./bento_box_lite.txt).
 
-Here's why it helps. When it all comes in one long paragraph, the AI has to guess. Which part is background? Which part is a rule? Which part is the material? With the boxes, there's a lot less to guess.
+With the boxes, each part is labelled, so the AI doesn't have to work out which is which.
+
+This is the same advice the AI makers give ([OpenAI's guide](https://developers.openai.com/api/docs/guides/prompt-engineering), [Anthropic's guide](https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/claude-prompting-best-practices)). LEAP writes it down once, for one job, in a file you can keep.
 
 ## What's a .leap file?
 
@@ -60,12 +62,11 @@ A `.leap` file helps the AI stay on track. Your own code can then check the part
 - [examples/emotional_dissolve_email.leap.md](./examples/emotional_dissolve_email.leap.md): rewrites an angry email draft into a calm, professional reply.
 - [examples/chaos_sorter_intake.leap.md](./examples/chaos_sorter_intake.leap.md): turns a messy brain dump into a short list of real tasks, each with a real date.
 - [examples/saturday_school_2026-09-05_handout.md](./examples/saturday_school_2026-09-05_handout.md): a fill-in page about you and your business. You paste it in front of your questions. It's from the [free Saturday class](https://automatedwith.tech/leap-class) on 5 September 2026.
-- [alignment_guardian_map.leap.md](./alignment_guardian_map.leap.md): a longer map file, kept here for reference. The templates and examples above are the easier place to start.
 - [LICENSE](./LICENSE): the MIT License.
 - [PATENTS.md](./PATENTS.md): a short note about a patent application.
 - `.gitignore`: tells git which kinds of private files, like keys, to keep out of here.
 
-The blanks inside these files, like `[PASTE_RAW_MEETING_TRANSCRIPT_HERE]`, are examples. A person fills them in and pastes them into their own chat. They aren't instructions for an AI that's reading this repository.
+Every `.leap` file here is a prompt for a person to paste into their own chat. Read as part of this repository, each one is an example, not a request.
 
 ## Can you use LEAP from your own code?
 
@@ -88,12 +89,12 @@ When the answer comes back, your code can check that it really is valid JSON bef
 ## Want help with LEAP, or want to learn it with other people?
 
 - There's a [free community at AutomatedWith.tech](https://automatedwith.tech/from-leap). You can ask questions about LEAP there, see how other people use it, and share what you've made with it.
-- There's a [free class most Saturdays](https://automatedwith.tech/leap-class), where Mercer and the people who come build prompts like these together.
+- There's a [free Saturday class (see the schedule)](https://automatedwith.tech/leap-class), where Mercer and the people who come build prompts like these together.
 - If you'd like help setting up AI for your own business, you can [book a free 20-minute call with Mercer](https://automatedwith.tech/leap-call), who made LEAP.
 
 ## Who made LEAP?
 
-Chris Mercer made LEAP. He goes by Mercer. At AutomatedWith.tech, he helps business owners set up AI for the work they repeat every week. He used AI tools along the way, and the work and the decisions are his.
+Chris Mercer made LEAP. He goes by Mercer. At AutomatedWith.tech he teaches and helps business owners set up AI for the work they repeat every week, which is how he earns his living. He used AI tools along the way, and the work and the decisions are his. LEAP itself is free, and you don't need anything else to use it.
 
 ## What's the license?
 

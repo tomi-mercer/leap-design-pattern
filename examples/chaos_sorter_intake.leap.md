@@ -1,12 +1,12 @@
-<LEAP_FILE type="leaplet_example_sorter">
-<!--
+Copy everything in the box below into your AI, and replace the lines in capitals with your own material.
+
 THE PATTERN (read this once, then use the mold below)
 
 This is the "Chaos Sorter": you hand the machine a messy brain-dump — half sentences,
 pasted links, three ideas and a grocery item — and it returns a strict, sorted list of
 real tasks, each filed into one of your life's buckets with an honest date.
 
-Five moves make it deterministic instead of chatty:
+Five moves make it steadier and less chatty, though not perfect:
 
 1. ONE GOVERNING FRAME. The machine gets a single job description ("you sort chaos into
    tasks"), not a personality conversation. If your API supports a system-instruction
@@ -21,8 +21,8 @@ Five moves make it deterministic instead of chatty:
    date that stays true tomorrow. Never let the machine store the word "tomorrow."
 
 4. THE DESTINATION IS A SCHEMA, NOT A WISH. When you call a model API directly, pass the
-   output shape as a real JSON schema (most modern APIs accept one and will refuse to
-   drift from it). Begging for "valid JSON please" in prose is the old world.
+   output shape as a real JSON schema (most modern APIs accept one, which keeps the
+   output closer to it). Begging for "valid JSON please" in prose is the old world.
 
 5. NOTHING IS EVER LOST. In your own code, wrap the call so that on any failure the raw
    dump is kept somewhere safe and said so plainly. A sorter that can drop your words
@@ -31,7 +31,9 @@ Five moves make it deterministic instead of chatty:
 Works with any schema-capable model API. One more honesty rule for builders: put the
 API call behind one small adapter function in your codebase, so the day you change
 models you change one constant — not twelve call sites.
--->
+
+```text
+<LEAP_FILE type="leaplet_example_sorter">
 <DOMINO>
     <TEMPLATE>
         <RECIPE_CARD>
@@ -79,3 +81,4 @@ models you change one constant — not twelve call sites.
     </TEMPLATE>
 </DOMINO>
 </LEAP_FILE>
+```

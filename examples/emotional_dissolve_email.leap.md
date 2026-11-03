@@ -1,3 +1,6 @@
+Copy everything in the box below into your AI, and replace the lines in capitals with your own material.
+
+```text
 <LEAP_FILE type="leaplet_emotional_dissolve">
 <DOMINO>
     <TEMPLATE>
@@ -10,7 +13,7 @@
                 <THE_MACHINE>
                     <LOGIC>
                         1. **Sentiment Analysis**: Identify all emotional triggers, passive-aggressive phrases, and aggressive tone markers in the [FUEL].
-                        2. **The Context Purifier**: Strip away the ego and the emotion, leaving only the logical business intent.
+                        2. **Keep Only the Intent**: Strip away the ego and the emotion, leaving only the logical business intent.
                         3. **Professional Reframing**: Rewrite the response to be 100% professional, de-escalating, and focused on a collaborative outcome.
                         4. **HILOU Check**: Ensure the new draft is highly likely to be obviously useful for maintaining the client relationship.
                     </LOGIC>
@@ -27,3 +30,4 @@
     </TEMPLATE>
 </DOMINO>
 </LEAP_FILE>
+```

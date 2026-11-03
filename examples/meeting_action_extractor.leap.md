@@ -1,3 +1,6 @@
+Copy everything in the box below into your AI, and replace the lines in capitals with your own material.
+
+```text
 <LEAP_FILE type="leaplet_example_extractor">
 <DOMINO>
     <TEMPLATE>
@@ -12,7 +15,7 @@
                         1. **Scan for Intent**: Identify any sentences where a commitment is made (e.g., "I'll handle that," "Let's get this done by Friday").
                         2. **Entity Extraction**: Isolate the task description, the assigned owner, and the specific deadline.
                         3. **Purify**: Remove all conversational "fluff," jokes, and off-topic discussion.
-                        4. **Deterministic Mapping**: Transform the findings into the strict JSON array format requested in the Destination.
+                        4. **Steady Mapping**: Transform the findings into the strict JSON array format requested in the Destination.
                     </LOGIC>
                 </THE_MACHINE>
 
@@ -35,3 +38,4 @@
     </TEMPLATE>
 </DOMINO>
 </LEAP_FILE>
+```
