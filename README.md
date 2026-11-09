@@ -55,8 +55,12 @@ A `.leap` file helps the AI stay on track. Your own code can then check the part
 ## What's in this repository?
 
 - [bento_box_lite.txt](./bento_box_lite.txt): the three boxes from above (context, rules and input), ready to fill in.
+- [HOW_TO_WRITE_A_LEAP_FILE.md](./HOW_TO_WRITE_A_LEAP_FILE.md): shows you how to write your own LEAP file, starting from an empty page, and where to paste it.
+- [write_my_leap_file.leap.md](./write_my_leap_file.leap.md): paste this into your AI, and it asks up to six questions, then writes a LEAP file for your job.
+- [HOW_TRUE_IS_IT.md](./HOW_TRUE_IS_IT.md): how true is each claim on this page, and how you or your AI can check it.
 - [leap_advanced_template.leap.md](./leap_advanced_template.leap.md): a short, empty `.leap` file with the three main parts and four steps to fill in.
 - [recipe_card_template.leap.md](./recipe_card_template.leap.md): a longer template for one job, with notes inside about what each part is for.
+- [examples/chain/TEST.md](./examples/chain/TEST.md): a 15-minute test checking whether each file in a chain keeps its own rule.
 - [examples/meeting_action_extractor.leap.md](./examples/meeting_action_extractor.leap.md): turns a meeting transcript into a list of tasks. Each task gets an owner and a deadline.
 - [examples/receipt_expense_parser.leap.md](./examples/receipt_expense_parser.leap.md): takes the text read off a receipt and fills in a table. The table has the shop, the date, the total, the tax and a category.
 - [examples/emotional_dissolve_email.leap.md](./examples/emotional_dissolve_email.leap.md): rewrites an angry email draft into a calm, professional reply.
